@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "jc";
+    src: url(jc.ttf);
+}
+
+@font-face {
+    font-family: "jec";
+    src: url(jec.ttf);
+}
+
+@font-face {
+    font-family: "jr";
+    src: url(jr.ttf);
+}
+
+body {
+    margin: 0;
+    display: flex;
+    background-color: #fff;
+    min-height: 100vh;
+}
+
+* {
+    line-height: 100%;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.inner {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.text {
+    position: relative;
+    display: inline-block;
+    font-size: 60px;
+    font-family: "jc";
+}
+
+.letter {
+    position: relative;
+    display: inline-block;
+    margin: 20px 0;
+    width: 100px;
+    height: 100px;
+    background-image: url(b.png);
+    background-size: 100%;
+    cursor: pointer;
+}

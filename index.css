@@ -16,7 +16,7 @@
 body {
     margin: 0;
     display: flex;
-    background-color: #fff;
+    background-color: #000;
     min-height: 100vh;
 }
 
@@ -45,6 +45,15 @@ body {
     position: relative;
     display: inline-block;
     font-size: 60px;
+}
+
+.text.top {
+    color: #fff;
+    font-family: "jec";
+}
+
+.text.bottom {
+    color: #ff0;
     font-family: "jc";
 }
 
